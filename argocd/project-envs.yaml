@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Nafay-0/DevOps-With-Kubernetes.git
+    repoURL: https://github.com/Nafay-0/dwk-config.git
     targetRevision: main
     path: ToDoApp/gitops/overlays/staging
   destination:
@@ -25,7 +25,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Nafay-0/DevOps-With-Kubernetes.git
+    repoURL: https://github.com/Nafay-0/dwk-config.git
     targetRevision: refs/tags/prod
     path: ToDoApp/gitops/overlays/production
   destination:
